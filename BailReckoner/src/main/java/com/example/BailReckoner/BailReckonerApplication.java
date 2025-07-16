@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class BailReckonerApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(BailReckonerApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(BailReckonerApplication.class, args);
+    }
 }

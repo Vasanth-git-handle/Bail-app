@@ -1,10 +1,19 @@
+# -------------------------
+# 📦 Java / Spring Boot
+# -------------------------
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
+
+# Ignore target directories in nested modules
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# -------------------------
+# 💻 IDEs & Editor Settings
+# -------------------------
+
+# STS (Spring Tool Suite)
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +22,49 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# -------------------------
+# ⚛️ React Frontend
+# -------------------------
+
+# Node dependencies
+react-frontend/node_modules/
+
+# Build output
+react-frontend/build/
+
+# Sensitive environment variables
+react-frontend/.env
+
+# OS junk
+react-frontend/.DS_Store
+
+# -------------------------
+# 🧪 Test / Logs / Temp
+# -------------------------
+*.log
+logs/
+*.tmp
+*.swp
+
+# -------------------------
+# ⚠️ OS/System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
